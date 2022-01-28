@@ -1,0 +1,81 @@
+.courses {
+  margin-left: 0px;
+  margin-bottom: 30px;
+  margin-right: 0px;
+  width: 90%;
+  /* border: 1px solid black; */
+  padding: 20px 20px;
+}
+
+.terms_on_programs {
+  width: 50%;
+  margin: auto;
+}
+
+.courses-table {
+  margin: auto;
+  align-content: flex-end;
+  margin-bottom: 30px;
+  padding: 15px 30px 30px 30px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.courses_on_programs {
+  margin-top: 30px;
+}
+
+.courses_on_programs table {
+  /* display: flexbox; */
+  width: 70%;
+  /* text-align: center; */
+  margin: auto;
+  background-color: #f2f2f2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* .courses_on_programs tr td {
+  width: 250px;
+  text-align: left;
+} */
+
+.courses-code {
+  width: 50px;
+  padding-left: 20px;
+}
+
+.courses-name {
+  width: 250px;
+}
+
+.courses-button {
+  width: 50px;
+}
+
+.courses-table tr td {
+  padding: 10px 20px;
+}
+
+.courses-table th {
+  text-align: left;
+  padding: 10px 20px;
+}
+
+.add-button {
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+add-btn {
+  margin-bottom: 30px;
+}
+
+.add-course {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

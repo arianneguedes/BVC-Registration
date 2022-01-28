@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap");
+
+.courses-crud {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  width: 100%;
+  margin: auto;
+}
+
+.course-item:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.course-item,
+.course-item td {
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+
+.courses {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+}
+
+.course-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.25fr 1fr;
+}
+
+.table-row h5,
+.table-row td,
+.table-row tr {
+  margin: 0px;
+  padding: 5px 5px 5px 0px;
+  font-size: 15px;
+}
+
+.input-courses {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 30px;
+  width: 100%;
+}
+
+.input-bottom {
+    margin-bottom: 15px;
+}
+
+.textarea-courses {
+    height: 150px;
+}
+
+.table {
+  width: 30%;
+  margin: auto;
+  margin-top: 60px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 45px 45px 50px;
+  margin-bottom: 60px;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.table-button {
+  margin-top: 20px;
+}
+
+.th-courses {
+  background-color: #a8a8a8;
+  color: #000000;
+}
+
+.crud1,
+.crud2 {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.btn-courses {
+  font-family: "Raleway", sans-serif;
+  background-color: #12a3f3;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  width: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn-courses:hover {
+  background: #0c2064;
+}
+
+.btn-courses-link {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.btn-courses-edit {
+  margin-bottom: 5px;
+}

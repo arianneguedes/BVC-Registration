@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap");
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 0.5fr repeat(6, 1fr) 0.5fr;
+  grid-template-rows: 0.3fr 0.1fr 0.3fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #0c2064;
+ 
+}
+
+.bvc_logo {
+  grid-area: 2 / 1 / 3 / 3;
+  width: 10vw;
+  height: 8.5vw;
+  background-image: url("../Images/logo.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: 1%;
+  justify-self: center;
+}
+
+.header_title {
+  font-size: 3vw;
+  font-weight: bolder;
+  color: #ffffff;
+  align-self: center;
+  grid-area: 2 / 4 / 3 / 8;
+  border-radius: 0.5vw;
+  background-color: #0c2064;
+  text-align: center;
+  padding: 2%;
+}
+
+.nav_bar {
+  grid-area: 3 / 4 / 4 / 8;
+  height: 120%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  align-items: center;
+  font-size: 1vw;
+  font-style: italic;
+  color: #ffffff;
+  background-color: #0c2064;
+  border-radius: 1vw;
+}
+
+.nav_1 {
+  background-image: url("../Images/home_icon.png");
+  background-repeat: no-repeat;
+  background-size: 1.5vw;
+  background-position-x: 21%;
+  background-position-y: 50%;
+  background-color: #0c2064;
+  height: 2vw;
+  padding-top: 7%;
+}
+
+.nav_2 {
+  background-image: url("../Images/courses_icon.png");
+  background-repeat: no-repeat;
+  background-size: 1.5vw;
+  background-position-x: 15%;
+  background-position-y: 50%;
+  background-color: #0c2064;
+  height: 2vw;
+  padding-top: 7%;
+}
+
+.nav_3 {
+  background-image: url("../Images/form_icon.png");
+  background-repeat: no-repeat;
+  background-size: 1.5vw;
+  background-position-x: 7%;
+  background-position-y: 50%;
+  background-color: #0c2064;
+  height: 2vw;
+  padding-top: 7%;
+}
+
+.nav_4 {
+  background-image: url("../Images/form_icon.png");
+  background-repeat: no-repeat;
+  background-size: 1.5vw;
+  background-position-x: 12%;
+  background-position-y: 50%;
+  background-color: #0c2064;
+  height: 2vw;
+  padding-top: 7%;
+}
+
+.login-button {
+  grid-area: 2 / 9 /10/ 10;
+  background-image: url("../Images/login_icon.png");
+  background-repeat: no-repeat;
+  background-size: 1.5vw;
+  background-position-x: 5%;
+  background-position-y: 50%;
+  height: 2vw;
+  padding-top: 7%;
+  margin-left: 30%;
+}
+
+.login-element {
+  margin-left: 30%;
+  font-size: 1vw;
+}
+
+.nav_element {
+  color: #6acbff;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  transition: color 0.1s;
+  cursor: pointer;
+}
+
+.nav_element:hover {
+  text-decoration: none;
+  font-size: 1.1vw;
+  color: #12a3f3;
+  background-size: 1.6vw;
+}
+
+.page-title{
+  width:100%;
+  font-size: 2.1vw;
+  grid-area: 4 / 1 / 5 / 11;
+  text-align: center;
+  margin-top: 2vw;
+  font-weight: bold;
+}
+

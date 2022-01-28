@@ -1,0 +1,67 @@
+[
+  {
+    "id": "123456789",
+    "code": "NET222",
+    "name": "Networking",
+    "startdate": "2021-10-01",
+    "enddate": "2021-10-20",
+    "description": "Little description",
+    "fee": "10.55",
+    "show": true,
+    "action": 0
+  },
+  {
+    "id": "123456878",
+    "code": "WEB222",
+    "name": "Web Technology",
+    "startdate": "2021-10-01",
+    "enddate": "2021-10-20",
+    "description": "Little description",
+    "fee": "10.55",
+    "show": true,
+    "action": "0"
+  },
+  {
+    "id": "123426879",
+    "code": "PRO222",
+    "name": "Project Management",
+    "startdate": "2021-10-01",
+    "enddate": "2021-10-20",
+    "description": "Little description",
+    "fee": "10.55",
+    "show": true,
+    "action": "0"
+  },
+  {
+    "id": "123456810",
+    "code": "IS111",
+    "name": "Information Security",
+    "startdate": "2021-10-01",
+    "enddate": "2021-10-20",
+    "description": "Little description",
+    "fee": "10.55",
+    "show": true,
+    "action": "0"
+  },
+  {
+    "id": "a2fe45c6-ea16-42c1-b7df-48e944366631",
+    "code": "WEbjorUpdatedAgain",
+    "name": "Jorge",
+    "startdate": "2021-10-01",
+    "enddate": "2021-10-20",
+    "description": "Little description",
+    "show": true,
+    "action": 0
+  },
+  {
+    "id": "d8696b46-2788-4d39-aef1-108dd841b917",
+    "code": "New Course",
+    "name": "Course 1",
+    "startdate": "2022-01-09",
+    "enddate": "2022-06-30",
+    "description": "This is the complete description",
+    "fee": "38.69",
+    "show": true,
+    "action": 0
+  }
+]

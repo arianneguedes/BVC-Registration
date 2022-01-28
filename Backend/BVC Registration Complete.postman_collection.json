@@ -1,0 +1,408 @@
+{
+	"info": {
+		"_postman_id": "ca3ee5e5-7c3c-46bc-b147-bd5f2e693250",
+		"name": "BVC Registration Complete",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST Add Contact Form",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Jorge Now\",\r\n    \"email\": \"johndoe@gmail.com\",\r\n    \"message\": \"Another testing from Postman\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5001/addcontactform",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"addcontactform"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET All Contact Forms Submitted",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/contactforms",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"contactforms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Courses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/courses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get one Course",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/course/123456878",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"course",
+						"123456878"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search Course by Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/searchcourse/N",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"searchcourse",
+						"N"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Course",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"code\": \"WEbjor Doing on line\",\r\n    \"name\": \"Jorge\",\r\n    \"startdate\": \"2021-10-01\",\r\n    \"enddate\": \"2021-10-20\",\r\n    \"description\": \"Little description\",\r\n    \"fee\": \"10.55\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5001/addcourse",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"addcourse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Course",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"code\": \"WEbjorUpdatedAgain123\",\r\n    \"name\": \"Jorge\",\r\n    \"startdate\": \"2021-10-01\",\r\n    \"enddate\": \"2021-10-20\",\r\n    \"description\": \"Little description\",\r\n    \"fee\": \"10.55\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5001/updatecourse/4a5171a3-3c75-4eac-9272-4a5259f93eaa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"updatecourse",
+						"4a5171a3-3c75-4eac-9272-4a5259f93eaa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Course",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/deletecourse/4a5171a3-3c75-4eac-9272-4a5259f93eaa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"deletecourse",
+						"4a5171a3-3c75-4eac-9272-4a5259f93eaa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Programs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/programs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"programs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get one Program",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/program/c4faf5e6-085f-4bad-9146-60457632d27a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"program",
+						"c4faf5e6-085f-4bad-9146-60457632d27a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search Programs by Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/searchprogram/wa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"searchprogram",
+						"wa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Program",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"code\": \"DEV1234ONLINE\",\r\n    \"name\": \"Software Development\",\r\n    \"description\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\",\r\n    \"type\": \"Diploma\",\r\n    \"duration\": \"2 years\",\r\n    \"action\": \"\",\r\n    \"terms\": [\r\n        {\r\n            \"description\": \"Term 1\",\r\n            \"courses\": [\r\n                {\r\n                    \"id\": \"123456789\",\r\n                    \"code\": \"PR111\",\r\n                    \"name\": \"Project Management 1\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123456878\",\r\n                    \"code\": \"C+111\",\r\n                    \"name\": \"C++ Programming Fundamentals\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123426879\",\r\n                    \"code\": \"CO111\",\r\n                    \"name\": \"Computer Maintenance\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123456810\",\r\n                    \"code\": \"IS111\",\r\n                    \"name\": \"Information Security\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"description\": \"Term 2\",\r\n            \"courses\": [\r\n                {\r\n                    \"id\": \"123456789\",\r\n                    \"code\": \"NET222\",\r\n                    \"name\": \"Networking\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123456878\",\r\n                    \"code\": \"WEB222\",\r\n                    \"name\": \"Web Technology\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123426879\",\r\n                    \"code\": \"PRO222\",\r\n                    \"name\": \"Project Management\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123456810\",\r\n                    \"code\": \"IS111\",\r\n                    \"name\": \"Information Security\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"description\": \"Term 3\",\r\n            \"courses\": [\r\n                {\r\n                    \"id\": \"123456789\",\r\n                    \"code\": \"PR111\",\r\n                    \"name\": \"Project Management 1\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123456878\",\r\n                    \"code\": \"C+111\",\r\n                    \"name\": \"C++ Programming Fundamentals\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123426879\",\r\n                    \"code\": \"CO111\",\r\n                    \"name\": \"Computer Maintenance\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123456810\",\r\n                    \"code\": \"IS111\",\r\n                    \"name\": \"Information Security\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"description\": \"Term 4\",\r\n            \"courses\": [\r\n                {\r\n                    \"id\": \"123456789\",\r\n                    \"code\": \"NET222\",\r\n                    \"name\": \"Networking\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123456878\",\r\n                    \"code\": \"WEB222\",\r\n                    \"name\": \"Web Technology\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123426879\",\r\n                    \"code\": \"PRO222\",\r\n                    \"name\": \"Project Management\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123456810\",\r\n                    \"code\": \"IS111\",\r\n                    \"name\": \"Information Security\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5001/addprogram",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"addprogram"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Program",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"code\": \"DEV1234 With space\",\r\n    \"name\": \"Software Development\",\r\n    \"description\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\",\r\n    \"type\": \"Diploma\",\r\n    \"duration\": \"2 years\",\r\n    \"action\": \"\",\r\n    \"terms\": [\r\n        {\r\n            \"description\": \"Term 1\",\r\n            \"courses\": [\r\n                {\r\n                    \"id\": \"123456789\",\r\n                    \"code\": \"PR111\",\r\n                    \"name\": \"Project Management 1\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123456878\",\r\n                    \"code\": \"C+111\",\r\n                    \"name\": \"C++ Programming Fundamentals\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123426879\",\r\n                    \"code\": \"CO111\",\r\n                    \"name\": \"Computer Maintenance\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123456810\",\r\n                    \"code\": \"IS111\",\r\n                    \"name\": \"Information Security\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"description\": \"Term 2\",\r\n            \"courses\": [\r\n                {\r\n                    \"id\": \"123456789\",\r\n                    \"code\": \"NET222\",\r\n                    \"name\": \"Networking\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123456878\",\r\n                    \"code\": \"WEB222\",\r\n                    \"name\": \"Web Technology\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123426879\",\r\n                    \"code\": \"PRO222\",\r\n                    \"name\": \"Project Management\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123456810\",\r\n                    \"code\": \"IS111\",\r\n                    \"name\": \"Information Security\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"description\": \"Term 3\",\r\n            \"courses\": [\r\n                {\r\n                    \"id\": \"123456789\",\r\n                    \"code\": \"PR111\",\r\n                    \"name\": \"Project Management 1\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123456878\",\r\n                    \"code\": \"C+111\",\r\n                    \"name\": \"C++ Programming Fundamentals\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123426879\",\r\n                    \"code\": \"CO111\",\r\n                    \"name\": \"Computer Maintenance\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123456810\",\r\n                    \"code\": \"IS111\",\r\n                    \"name\": \"Information Security\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"description\": \"Term 4\",\r\n            \"courses\": [\r\n                {\r\n                    \"id\": \"123456789\",\r\n                    \"code\": \"NET222\",\r\n                    \"name\": \"Networking\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123456878\",\r\n                    \"code\": \"WEB222\",\r\n                    \"name\": \"Web Technology\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123426879\",\r\n                    \"code\": \"PRO222\",\r\n                    \"name\": \"Project Management\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                },\r\n                {\r\n                    \"id\": \"123456810\",\r\n                    \"code\": \"IS111\",\r\n                    \"name\": \"Information Security\",\r\n                    \"startdate\": \"2021-10-01\",\r\n                    \"enddate\": \"2021-10-20\",\r\n                    \"description\": \"Little description\",\r\n                    \"fee\": \"10.55\",\r\n                    \"show\": true,\r\n                    \"action\": \"0\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5001/updateprogram/c4faf5e6-085f-4bad-9146-60457632d27a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"updateprogram",
+						"c4faf5e6-085f-4bad-9146-60457632d27a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Program",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/deleteprogram/c4faf5e6-085f-4bad-9146-60457632d27a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"deleteprogram",
+						"c4faf5e6-085f-4bad-9146-60457632d27a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search Contacts by Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/searchcontact/e",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"searchcontact",
+						"e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Login (Check Password and username match)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"password\": \"IamJorg\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5001/login/JORGE",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"login",
+						"JORGE"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add New User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"JORGE\",\r\n    \"password\": \"IamJorge\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5001/adduser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"adduser"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
